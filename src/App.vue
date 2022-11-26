@@ -1,28 +1,64 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="view">
+    <div class="top-view">
+      <div class="logo-page">
+        <img src="./assets/images/logo_page.jpg" alt="这里是一张logo图片" />
+      </div>
+      <div class="top-navigation"><TopNavigation /></div>
+    </div>
+    <div class="body-view">
+      <div class="side-navigation"><SideNavigation /></div>
+      <div class="protocol-view"></div>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import TopNavigation from './Components/TopNavigation.vue';
+import SideNavigation from './Components/SideNavigation.vue';
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    TopNavigation,
+    SideNavigation,
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+* {
+  margin: 0;
+  padding: 0;
+}
+.view {
+  flex-direction: column;
+  display: flex;
+  height: 850px;
+}
+
+.top-view {
+  display: flex;
+  background-color: #2a3139;
+  height: 80px;
+}
+.body-view {
+  flex: 1;
+  display: flex;
+}
+
+.logo-page img {
+  width: 200px;
+  height: 80px;
+}
+.top-navigation {
+  flex: 1;
+}
+.side-navigation {
+  width: 200px;
+  height: 100%;
+  background-color: #2a3139;
+}
+.protocol-view {
+  flex: 1;
 }
 </style>
