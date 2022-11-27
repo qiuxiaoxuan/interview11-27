@@ -8,8 +8,8 @@
   </div>
 </template>
 <script>
+// 自定义的标题组件
 export default {
-  // 协议主体
   name: 'ArticalTitle',
 };
 </script>

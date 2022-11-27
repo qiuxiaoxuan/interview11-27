@@ -23,6 +23,7 @@
   </div>
 </template>
 <script>
+// 补充协议组件
 import ArticalTitle from './ArticalTitle.vue';
 export default {
   name: 'AdditionalProtocol',

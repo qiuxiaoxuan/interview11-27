@@ -7,34 +7,24 @@
       @select="handleSelect"
     >
       <el-menu-item index="1">
-        <img src="../assets/images/fangzi.png" alt="图标" />
-        首页</el-menu-item
-      >
+        <img src="../assets/images/fangzi.png" alt="图标" />首页
+      </el-menu-item>
 
-      <el-menu-item index="2"
-        ><img
-          src="../assets/images/fangzi.png"
-          alt="图标"
-        />主数据</el-menu-item
-      >
-      <el-menu-item index="3"
-        ><img
-          src="../assets/images/fangzi.png"
-          alt="图标"
-        />辖区管理</el-menu-item
-      >
-      <el-menu-item index="4"
-        ><img
-          src="../assets/images/fangzi.png"
-          alt="图标"
-        />销讯通</el-menu-item
-      >
+      <el-menu-item index="2">
+        <img src="../assets/images/fangzi.png" alt="图标" />主数据
+      </el-menu-item>
+      <el-menu-item index="3">
+        <img src="../assets/images/fangzi.png" alt="图标" />辖区管理
+      </el-menu-item>
+      <el-menu-item index="4">
+        <img src="../assets/images/fangzi.png" alt="图标" />销讯通
+      </el-menu-item>
     </el-menu>
   </div>
 </template>
 
 <script>
-// 顶部导航栏
+// 顶部导航栏组件
 export default {
   name: 'TopNavigation',
   data() {

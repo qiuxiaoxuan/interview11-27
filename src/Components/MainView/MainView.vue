@@ -8,10 +8,14 @@
   </div>
 </template>
 <script>
-// 主体视口
+// 主体视窗组件
+// 引入头部
 import HeaderView from './HeaderView.vue';
+// 引入协议主体组件
 import ProtocolBouncers from './ProtocolBouncers.vue';
+// 引入产品政策组件
 import ProductPolicy from './ProductPolicy.vue';
+// 引入补充协议组件
 import AdditionalProtocol from './AdditionalProtocol.vue';
 export default {
   name: 'MainView',

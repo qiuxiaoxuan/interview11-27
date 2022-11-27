@@ -124,7 +124,7 @@
   </div>
 </template>
 <script>
-// 协议主体
+// 产品政策组件
 import ArticalTitle from './ArticalTitle.vue';
 export default {
   name: 'ProductPolicy',

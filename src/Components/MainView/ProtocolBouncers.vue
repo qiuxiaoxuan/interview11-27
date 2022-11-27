@@ -10,7 +10,9 @@
 </template>
 <script>
 // 协议主体
+// 引入标题组件
 import ArticalTitle from './ArticalTitle.vue';
+// 引入协议表单组件
 import ProtocolForm from './ProtocolForm.vue';
 export default {
   name: 'ProtocolBouncers',

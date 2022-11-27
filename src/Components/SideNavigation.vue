@@ -111,7 +111,7 @@
 </template>
 
 <script>
-// 侧边导航栏
+// 侧边导航栏组件
 export default {
   name: 'SideNavigation',
   methods: {

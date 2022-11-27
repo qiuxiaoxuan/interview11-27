@@ -14,9 +14,11 @@
 </template>
 
 <script>
+// 引入顶部导航栏组件
 import TopNavigation from './Components/TopNavigation.vue';
+// 引入侧边导航栏组件
 import SideNavigation from './Components/SideNavigation.vue';
-
+// 引入页面主体视窗组件
 import MainView from './Components/MainView/MainView.vue';
 export default {
   name: 'App',
