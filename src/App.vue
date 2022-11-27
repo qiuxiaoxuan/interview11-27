@@ -8,7 +8,7 @@
     </div>
     <div class="body-view">
       <div class="side-navigation"><SideNavigation /></div>
-      <div class="protocol-view"></div>
+      <div class="protocol-view"><MainView /></div>
     </div>
   </div>
 </template>
@@ -16,11 +16,14 @@
 <script>
 import TopNavigation from './Components/TopNavigation.vue';
 import SideNavigation from './Components/SideNavigation.vue';
+
+import MainView from './Components/MainView/MainView.vue';
 export default {
   name: 'App',
   components: {
     TopNavigation,
     SideNavigation,
+    MainView,
   },
 };
 </script>
@@ -33,7 +36,7 @@ export default {
 .view {
   flex-direction: column;
   display: flex;
-  height: 850px;
+  height: 1100px;
 }
 
 .top-view {

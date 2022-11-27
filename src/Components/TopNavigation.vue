@@ -34,7 +34,9 @@
 </template>
 
 <script>
+// 顶部导航栏
 export default {
+  name: 'TopNavigation',
   data() {
     return {
       activeIndex: '1',
@@ -65,5 +67,11 @@ export default {
 .el-menu-item img {
   width: 40px;
   margin-right: 8px;
+}
+.el-menu-item:hover {
+  background-color: gray !important;
+}
+.is-active {
+  background-color: gray !important;
 }
 </style>

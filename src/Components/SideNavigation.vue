@@ -111,7 +111,9 @@
 </template>
 
 <script>
+// 侧边导航栏
 export default {
+  name: 'SideNavigation',
   methods: {
     handleOpen(key, keyPath) {
       console.log(key, keyPath);
